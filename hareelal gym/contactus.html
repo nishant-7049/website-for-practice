@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heeralal's gym</title>
+    <style>
+        body{
+            color: white;
+        }
+        header::before{
+            content: "";
+            background: url('contact us.jpg') no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.9;
+            }
+        .left{
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .mid{
+            display: block;
+            width: 500px;
+            margin: 40px auto;
+        }
+        .mid li{
+            display: inline-block;
+            list-style: none;
+            margin: 0px 20px;    
+        }
+        .mid a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .right{
+            margin: 40px 10px;
+            font-size: 20px;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            right: 10px;
+        }
+        .right a{
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        @media only screen and (max-width: 800px) {
+            .mid{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div id="navbar">
+        <div class="left">
+            <img src="logo.jpg" alt="logo of website" width="100px">
+        </div>
+        <div class="mid">
+            <ul>
+                <li><a href="heeralal's gym.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="">Log In</a>
+        </div>
+    </div>
+    </header>
+</body>
+</html>
